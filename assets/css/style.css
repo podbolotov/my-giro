@@ -33,7 +33,7 @@ section.panel {
     padding: 0 130px;
 }
 
-section.panel#useful-info{
+section.panel#useful-info {
     padding: 0 5vw;
 }
 
@@ -359,10 +359,10 @@ section#catalog #all:checked~.categories #all-tab {
     background: #3d67b0;
 }
 
-section#catalog #giroscooters:checked~.panels #giroscooters-container,
-section#catalog #electric_scooters:checked~.panels #electric_scooters-container,
-section#catalog #segways:checked~.panels #segways-container,
-section#catalog #all:checked~.panels .catalog-container {
+section#catalog #giroscooters:checked~.c-giroscooter,
+section#catalog #electric_scooters:checked~.c-electric_scooter,
+section#catalog #segways:checked~.c-seagway,
+section#catalog #all:checked~.c-card {
     display: flex;
 }
 
@@ -393,7 +393,7 @@ section#catalog .catalog-container .c-card {
     width: 320px;
     border: solid 1px #e1e1e1;
     border-radius: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
