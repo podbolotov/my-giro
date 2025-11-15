@@ -338,6 +338,7 @@ section#catalog .categories {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    align-content: center;
 }
 
 section#catalog .categories ul {
@@ -366,6 +367,15 @@ section#catalog #all:checked~.panels .c-card {
     display: flex;
 }
 
+section#catalog .categories {
+    display: flex;
+    justify-content: center;
+}
+
+section#catalog .categories li {
+    margin: 10px;
+}
+
 section#catalog .categories li label {
     display: inline-block;
     user-select: none;
@@ -375,14 +385,6 @@ section#catalog .categories li label {
     cursor: pointer;
     color: #3d67b0;
     transition: .5s ease-in-out;
-}
-
-section#catalog .categories li {
-    margin-left: 25px;
-}
-
-section#catalog .categories li:first-of-type {
-    margin: 0;
 }
 
 section#catalog .catalog-container {
