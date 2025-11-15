@@ -1,0 +1,5 @@
+# Source Media folder
+media/
+
+# macOS Specific Files
+.DS_Store
