@@ -359,10 +359,10 @@ section#catalog #all:checked~.categories #all-tab {
     background: #3d67b0;
 }
 
-section#catalog #giroscooters:checked~.c-giroscooter,
-section#catalog #electric_scooters:checked~.c-electric_scooter,
-section#catalog #segways:checked~.c-seagway,
-section#catalog #all:checked~.c-card {
+section#catalog #giroscooters:checked~.panels .c-giroscooter,
+section#catalog #electric_scooters:checked~.panels .c-electric_scooter,
+section#catalog #segways:checked~.panels .c-seagway,
+section#catalog #all:checked~.panels .c-card {
     display: flex;
 }
 
