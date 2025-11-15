@@ -444,3 +444,10 @@ section#useful-info .content .item .title {
     color: #3d67b0;
     margin: 15px 0;
 }
+
+section#sub {
+    height: 100vh;
+    margin-bottom: 15vh;
+    background: url("../img/sub-bg.png") center no-repeat;
+    background-size: 100% 100%;
+}
