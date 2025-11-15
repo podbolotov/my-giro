@@ -33,6 +33,10 @@ section.panel {
     padding: 0 130px;
 }
 
+section.panel#useful-info{
+    padding: 0 5vw;
+}
+
 .section-title {
     font-size: 50px;
     color: #3d67b0;
@@ -117,7 +121,7 @@ section.panel {
 }
 
 section#first-page {
-    height: 100vh;
+    height: 65vw;
     color: #fff;
     background-image: url("../img/first-page-bg.png");
     background-repeat: no-repeat;
@@ -420,8 +424,8 @@ section#catalog .catalog-container .c-card .price-container .price {
 }
 
 section#useful-info {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
 }
 
 section#useful-info .u-content {
@@ -436,20 +440,28 @@ section#useful-info .content .item {
 section#useful-info .content .item img.item-img {
     object-fit: cover;
     border-radius: 20px;
-    width: 350px;
+    width: 20vw;
+}
+
+section#useful-info .content .item img.item-fire {
+    width: 2vw;
 }
 
 section#useful-info .content .item .title {
-    font-size: 30px;
+    font-size: 2vw;
     color: #3d67b0;
-    margin: 15px 0;
+    margin: 1vw 0;
+}
+
+section#useful-info .content .item .information {
+    font-size: calc(0.5vw + 1vh);
 }
 
 section#sub {
-    height: 100vh;
+    height: 70vw;
     margin-bottom: 15vh;
     background: url("../img/sub-bg.png") center no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 footer {
@@ -457,7 +469,7 @@ footer {
     width: 100%;
     position: absolute;
     z-index: 100;
-    top: calc(100% - 15vh);
+    top: calc(100% - 5vh);
     left: 0;
 }
 
