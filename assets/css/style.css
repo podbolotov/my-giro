@@ -299,3 +299,29 @@ section#consultants .item .item-description {
     margin-top: 5px;
     font-size: 17px;
 }
+
+section#about-segway {
+    margin-top: 150px;
+    position: relative;
+}
+
+section#about-segway .section-image {
+    height: 20vw;
+}
+
+section#about-segway .title {
+    font-size: 30px;
+    color: #3d67b0;
+}
+
+section#about-segway .title img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 30px;
+}
+
+section#about-segway ol {
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 25px;
+}
