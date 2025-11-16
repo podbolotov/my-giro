@@ -532,15 +532,7 @@ footer .social-icons img {
     cursor: pointer;
 }
 
-div#Card-0 {
-    display: block;
-}
-
-div#Card-1:not(:target) {
-    display: none;
-}
-
-div#Card-1:target {
+div#Card-1 {
     display: block;
 }
 
@@ -568,10 +560,9 @@ div#Card-4:target {
     display: block;
 }
 
-div#Card-1.item:target~div#Card-0.item,
-div#Card-2.item:target~div#Card-0.item,
-div#Card-3.item:target~div#Card-0.item,
-div#Card-4.item:target~div#Card-0.item {
+div#Card-2.item:target~div#Card-1.item,
+div#Card-3.item:target~div#Card-1.item,
+div#Card-4.item:target~div#Card-1.item {
     display: none;
 }
 
