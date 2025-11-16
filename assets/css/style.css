@@ -180,29 +180,37 @@ section#first-page .nav li:hover::after {
 
 section#advantages {
     background: transparent;
+    height: 35vw;
     padding-bottom: 50px;
     padding-top: 50px;
 }
 
 section#advantages .item {
-    height: 100%;
+    padding-top: 30px;
+    height: 500px;
+    width: 500px;
     transform: scale(.6);
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
     user-select: none;
+    background-color: white;
+
 }
 
 section#advantages .item:hover {
-    transform: scale(.8);
+    transform: scale(.7);
 }
 
 section#advantages .item img {
-    height: 90%;
+    padding-left: 22%;
+    /* Позор, конечно, но иначе выровнять пока не удалось. */
+    height: 250px;
+    width: auto;
 }
 
 section#advantages .item p {
     font-size: 30px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 section#about-us {
@@ -522,4 +530,53 @@ footer .contact>.item img {
 footer .social-icons img {
     width: 35px;
     cursor: pointer;
+}
+
+div#Card-0 {
+    display: block;
+}
+
+div#Card-1:not(:target) {
+    display: none;
+}
+
+div#Card-1:target {
+    display: block;
+}
+
+div#Card-2:not(:target) {
+    display: none;
+}
+
+div#Card-2:target {
+    display: block;
+}
+
+div#Card-3:not(:target) {
+    display: none;
+}
+
+div#Card-3:target {
+    display: block;
+}
+
+div#Card-4:not(:target) {
+    display: none;
+}
+
+div#Card-4:target {
+    display: block;
+}
+
+div#Card-1.item:target~div#Card-0.item,
+div#Card-2.item:target~div#Card-0.item,
+div#Card-3.item:target~div#Card-0.item,
+div#Card-4.item:target~div#Card-0.item {
+    display: none;
+}
+
+img.slider-button {
+    margin-top: 30px;
+    background-color: white;
+    max-height: 70px;
 }
